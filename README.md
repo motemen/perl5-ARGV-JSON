@@ -25,7 +25,7 @@ JSON format.
 
 # SEE ALSO
 
-[ARGV::URL](http://search.cpan.org/perldoc?ARGV::URL).
+[ARGV::URL](https://metacpan.org/pod/ARGV::URL).
 
 # LICENSE
 
