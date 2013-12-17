@@ -13,7 +13,11 @@ sub import {
     local $/;
 
     while (local $_ = <>) {
-        push @Data, $JSON->incr_parse($_);
+        $JSON->incr_parse($_);
+
+        while (my $datum = $JSON->incr_parse) {
+            push @Data, $datum;
+        }
     }
 
     tie *ARGV, 'ARGV::JSON::Handle';
