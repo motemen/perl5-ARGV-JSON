@@ -6,5 +6,3 @@ perl:
   - 5.18
 env:
   - PERL_MB_OPT=verbose=1 PERL_JSON_BACKEND=JSON::PP
-  - PERL_MB_OPT=verbose=1 PERL_JSON_BACKEND=JSON::XS
-install: cpanm --installdeps --notest . && cpanm --notest JSON::XS
