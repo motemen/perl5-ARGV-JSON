@@ -60,7 +60,7 @@ Or in one-liner:
 
 =head1 DESCRIPTION
 
-ARGV::JSON parses each input from C<< @ARGV >> and enables to acccess
+ARGV::JSON parses each input from C<< @ARGV >> and enables to access
 the JSON data structures via C<< <> >>.
 
 Each C<< readline >> call to C<< <> >> (or C<< <ARGV> >>) returns a

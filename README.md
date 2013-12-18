@@ -16,7 +16,7 @@ Or in one-liner:
 
 # DESCRIPTION
 
-ARGV::JSON parses each input from `@ARGV` and enables to acccess
+ARGV::JSON parses each input from `@ARGV` and enables to access
 the JSON data structures via `<>`.
 
 Each `readline` call to `<>` (or `<ARGV>`) returns a
